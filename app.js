@@ -6,7 +6,7 @@ document.getElementById('start-button').addEventListener('click', () => {
 function loadPlants() {
     const plants = ['Aloe Vera', 'Ficus', 'Cactus'];
     const selectionDiv = document.getElementById('plant-selection');
-    plants.map(plant => {
+    plants.forEach(plant => {
         const button = document.createElement('button');
         button.innerText = plant;
         button.addEventListener('click', () => selectPlant(plant));
