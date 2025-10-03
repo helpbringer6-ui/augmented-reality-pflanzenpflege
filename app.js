@@ -4,6 +4,7 @@ document.getElementById('start-button').addEventListener('click', () => {
 });
 
 function loadPlants() {
+    // Load available plants for selection
     const plants = ['Aloe Vera', 'Ficus', 'Cactus'];
     const selectionDiv = document.getElementById('plant-selection');
     plants.forEach(plant => {
