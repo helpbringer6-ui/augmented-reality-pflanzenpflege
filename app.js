@@ -15,6 +15,6 @@ function loadPlants() {
 }
 
 function selectPlant(plant) {
-    alert('Sie haben ' + plant + ' ausgewählt!');
-    // Hier kann AR-Logik hinzugefügt werden.
+    alert('You have selected ' + plant + '!');
+    // Here you can add AR logic.
 }
